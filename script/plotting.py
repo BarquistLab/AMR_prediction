@@ -69,6 +69,8 @@ elif scheme=='B':
 if random_option:
     table_name+="_random_split"
 if ratio_option:
+    result_folder='schemeA_ratio_result'
+    anti_result_folder='schemeA_ratio_'
     table_name+="_ratio"
 
 for species in ["extend_E_coli","Klebsiella pneumoniae","Salmonella enterica","Streptococcus pneumoniae","Staphylococcus aureus"]:
@@ -522,7 +524,7 @@ for f in ['Precision','Recall']:
 Figure S8
 '''
 plot=defaultdict(list)
-for species in ["extend_E_coli","Klebsiella pneumoniae","Salmonella enterica","Streptococcus pneumoniae","Staphylococcus aureus"]:#"Escherichia coli","Klebsiella pneumoniae","Salmonella enterica","Streptococcus pneumoniae","Staphylococcus aureus"]:#,]:#"Streptococcus pneumoniae","Salmonella enterica"]: #"Escherichia coli","Staphylococcus aureus",
+for species in ["extend_E_coli","Klebsiella pneumoniae","Salmonella enterica","Streptococcus pneumoniae","Staphylococcus aureus"]:
     corr=defaultdict(list)    
     output_file_name="AMR_prediction/data/ml/%s/individual_clade_result"%(species.replace(" ","_"))
 
@@ -616,3 +618,89 @@ plt.close()
 Figure S9
 '''
 
+plot=defaultdict(list)
+for species in ["extend_E_coli","Klebsiella pneumoniae","Salmonella enterica","Streptococcus pneumoniae","Staphylococcus aureus"]:
+    corr=defaultdict(list)    
+    output_file_name="/AMR_prediction/data/ml/%s/individual_clade_result"%(species.replace(" ","_"))
+    snp_genename=open("AMR_prediction/data/ml/%s/core_alignment_header.embl"%(species.replace(" ","_")),"r")
+    snp_genename_file=snp_genename.readlines()
+    snp_genename=dict()
+    for l in range(len(snp_genename_file)):
+        line=snp_genename_file[l]
+        if 'feature' in line:
+            genome_range=line.split("feature")[1].replace(" ","")
+            left=int(genome_range.split(".")[0])
+            right=int(genome_range.split(".")[-1])
+            label=snp_genename_file[l+1].split("label=")[1].strip()
+            locus_tag=snp_genename_file[l+2].split("locus_tag=")[1].strip()
+            snp_genename.update({tuple([left,right]):[label,locus_tag]})
+    # print(snp_genename)
+    genename_anno_file=pandas.read_csv("/AMR_prediction/data/ml/%s/gene_presence_absence_name_to_anno.tsv"%(species.replace(" ","_")),sep=',')
+    genename_anno=dict()
+    # print(genename_anno_file.columns)
+    for i in genename_anno_file.index:
+        genename_anno.update({genename_anno_file['Gene'][i]:[genename_anno_file['Non-unique Gene name'][i],genename_anno_file['Annotation'][i]]})
+
+
+    model_types=os.listdir(output_file_name)
+    model_types=[i.strip() for i in model_types if "test_folder" not in i and 'individual_clade_' in i]
+    print(species,model_types)
+    # model_types=['v10_ciprofloxacin']
+    for model_type in model_types:
+        anti=model_type.split("individual_clade_")[1]
+        if anti !='ciprofloxacin':
+            continue
+        split_file=pandas.read_csv("AMR_prediction/data/ml/%s/train_test_split_tables/train_test_split_%s.tsv"%(species.replace(" ","_"),anti),sep='\t',dtype={'genome_id':str})
+
+        # 
+        clades=list(set(split_file['split']))
+        clades.sort()
+        test='lightgbm'
+        ### features in training clade
+        for c in ['training']+[i for i in clades if i!='training']:
+            try:
+                print(c)
+                shap_df=pandas.read_csv(output_file_name+"/"+model_type+"/"+test+"/"+anti+"/shap_value_mean_class0_%s.csv"%c,sep='\t',dtype={"shap_values":float})
+                shap_df=shap_df.sort_values(by='shap_values',ascending=False)
+                value_sum=sum(shap_df['shap_values'])
+                value=0
+                top_N=0
+                while value < value_sum*0.5:
+                    top_N+=1
+                    value=sum(list(shap_df['shap_values'])[:top_N])
+                
+                fea_training=list(shap_df['features'])[:top_N]
+                fea_training_top10=list(shap_df['features'])[:10]
+                com_clade=c
+                shap_df=shap_df.iloc[:10,:]
+                for i in shap_df.index:
+                    if shap_df['features'][i] in genename_anno.keys():
+                        shap_df.at[i,'features']=shap_df['features'][i]+"\n("+genename_anno[shap_df['features'][i]][1]+")"
+                    else:
+                        loc=int(shap_df['features'][i].split("_")[0])
+                        ori=shap_df['features'][i].split("_")[1]
+                        mut=shap_df['features'][i].split("_")[2]
+                        mut=mut.replace("x","*")
+                        for key in snp_genename.keys():
+                            if loc>=key[0] and loc <= key[1]:
+                                gene=snp_genename[key][1]
+                                shap_df.at[i,'features']=gene+" ("+str(loc-key[0]+1)+","+ori+">"+mut+")"+"\n("+genename_anno[gene][1]+")"
+                                break
+                # print(shap_df)
+                plt.figure(figsize=(3,5))
+                sns.barplot(data=shap_df,x='shap_values',y='features',color='dodgerblue')
+                plt.xlabel("mean(|SHAP value|)")
+                plt.ylabel("")
+                if species=='extend_E_coli':
+                    title='$\it{\ Escherichia}$ $\it{\ coli}$'
+                else:
+                    title='$\it{\ %s}$ $\it{\ %s}$'%(species.split(" ")[0],species.split(" ")[1])
+                if c=='training':
+                    plt.title(title+"\n(%s %s)"%(anti,'clade 1'))
+                else:
+                    plt.title(title+"\n(%s %s)"%(anti,'clade '+str(int(c.split("_")[1])+1)))
+                plt.show()
+                plt.close()
+                
+            except Exception as e:
+                continue
