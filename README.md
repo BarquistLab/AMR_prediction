@@ -14,7 +14,8 @@ Repo for study "Biased sampling confounds machine learning prediction of antimic
 * Additional *E. coli* genomes were downloaded based on ENA accession numbers provided in S1 from previous study (https://doi.org/10.1371/journal.pcbi.1006258), followed by assembling using velvet.
 
 ## Python Environment
-'''
+
+```
 $ conda create --name <env> --file script/arm_spec.txt
-'''
+```
 
