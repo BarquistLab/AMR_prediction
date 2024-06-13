@@ -1,0 +1,185 @@
+species	count	top_N	count_top10
+"Escherichia
+coli"	0.0	3	0.0
+"Escherichia
+coli"	0.0	6	0.0
+"Escherichia
+coli"	0.0	10	0.0
+"Escherichia
+coli"	0.0	6	0.0
+"Escherichia
+coli"	0.0	6	0.0
+"Escherichia
+coli"	0.0	0	0.0
+"Escherichia
+coli"	0.0	0	0.0
+"Escherichia
+coli"	0.0	6	0.0
+"Escherichia
+coli"	0.0	2	0.0
+"Escherichia
+coli"	20.0	8	10.0
+"Escherichia
+coli"	20.0	9	10.0
+"Escherichia
+coli"	28.57142857142857	12	30.0
+"Escherichia
+coli"	14.285714285714285	12	20.0
+"Escherichia
+coli"	16.666666666666664	10	20.0
+"Escherichia
+coli"	16.666666666666664	6	20.0
+"Escherichia
+coli"	0.0	4	0.0
+"Escherichia
+coli"	0.0	5	0.0
+"Escherichia
+coli"	0.0	7	0.0
+"Escherichia
+coli"	25.0	13	20.0
+"Escherichia
+coli"	0.0	4	0.0
+"Escherichia
+coli"	0.0	5	0.0
+"Escherichia
+coli"	0.0	6	0.0
+"Escherichia
+coli"	0.0	7	0.0
+"Escherichia
+coli"	0.0	0	0.0
+"Escherichia
+coli"	50.0	1	10.0
+"Escherichia
+coli"	50.0	1	10.0
+"Escherichia
+coli"	0.0	1	0.0
+"Escherichia
+coli"	100.0	4	10.0
+"Escherichia
+coli"	0.0	3	0.0
+"Klebsiella
+pneumoniae"	20.0	3	30.0
+"Klebsiella
+pneumoniae"	0.0	6	0.0
+"Klebsiella
+pneumoniae"	0.0	0	0.0
+"Klebsiella
+pneumoniae"	0.0	2	0.0
+"Klebsiella
+pneumoniae"	0.0	6	10.0
+"Klebsiella
+pneumoniae"	0.0	6	0.0
+"Klebsiella
+pneumoniae"	0.0	5	0.0
+"Klebsiella
+pneumoniae"	0.0	2	0.0
+"Klebsiella
+pneumoniae"	25.0	6	10.0
+"Klebsiella
+pneumoniae"	0.0	8	0.0
+"Klebsiella
+pneumoniae"	0.0	8	0.0
+"Klebsiella
+pneumoniae"	0.0	7	0.0
+"Klebsiella
+pneumoniae"	0.0	5	0.0
+"Klebsiella
+pneumoniae"	0.0	7	10.0
+"Klebsiella
+pneumoniae"	0.0	8	0.0
+"Klebsiella
+pneumoniae"	0.0	1	10.0
+"Klebsiella
+pneumoniae"	0.0	3	10.0
+"Klebsiella
+pneumoniae"	0.0	1	0.0
+"Klebsiella
+pneumoniae"	0.0	4	10.0
+"Klebsiella
+pneumoniae"	33.33333333333333	6	10.0
+"Klebsiella
+pneumoniae"	33.33333333333333	7	10.0
+"Klebsiella
+pneumoniae"	0.0	1	20.0
+"Salmonella
+enterica"	50.0	4	10.0
+"Salmonella
+enterica"	0.0	6	0.0
+"Salmonella
+enterica"	0.0	3	10.0
+"Salmonella
+enterica"	100.0	2	30.0
+"Salmonella
+enterica"	0.0	3	10.0
+"Salmonella
+enterica"	0.0	5	0.0
+"Salmonella
+enterica"	0.0	8	0.0
+"Salmonella
+enterica"	0.0	4	0.0
+"Salmonella
+enterica"	0.0	3	10.0
+"Salmonella
+enterica"	0.0	5	0.0
+"Salmonella
+enterica"	0.0	5	0.0
+"Salmonella
+enterica"	0.0	5	0.0
+"Salmonella
+enterica"	16.666666666666664	4	30.0
+"Salmonella
+enterica"	16.666666666666664	4	20.0
+"Salmonella
+enterica"	0.0	2	10.0
+"Salmonella
+enterica"	0.0	5	0.0
+"Streptococcus
+pneumoniae"	0.0	5	10.0
+"Streptococcus
+pneumoniae"	0.0	3	10.0
+"Streptococcus
+pneumoniae"	0.0	5	30.0
+"Streptococcus
+pneumoniae"	0.0	2	10.0
+"Streptococcus
+pneumoniae"	0.0	6	0.0
+"Streptococcus
+pneumoniae"	0.0	3	0.0
+"Streptococcus
+pneumoniae"	0.0	7	0.0
+"Streptococcus
+pneumoniae"	0.0	4	10.0
+"Streptococcus
+pneumoniae"	50.0	1	10.0
+"Streptococcus
+pneumoniae"	50.0	1	30.0
+"Streptococcus
+pneumoniae"	50.0	2	30.0
+"Streptococcus
+pneumoniae"	0.0	1	20.0
+"Streptococcus
+pneumoniae"	0.0	9	0.0
+"Streptococcus
+pneumoniae"	0.0	13	0.0
+"Streptococcus
+pneumoniae"	0.0	8	0.0
+"Streptococcus
+pneumoniae"	0.0	5	0.0
+"Staphylococcus
+aureus"	0.0	2	0.0
+"Staphylococcus
+aureus"	20.0	3	10.0
+"Staphylococcus
+aureus"	20.0	2	10.0
+"Staphylococcus
+aureus"	0.0	2	0.0
+"Staphylococcus
+aureus"	33.33333333333333	2	20.0
+"Staphylococcus
+aureus"	0.0	2	10.0
+"Staphylococcus
+aureus"	0.0	3	0.0
+"Staphylococcus
+aureus"	0.0	1	10.0
+"Staphylococcus
+aureus"	50.0	1	10.0

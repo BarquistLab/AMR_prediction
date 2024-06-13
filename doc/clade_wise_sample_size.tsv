@@ -1,0 +1,210 @@
+species	antibiotic	clade	R	S	size
+Klebsiella pneumoniae	amikacin	clade_1	389	65	454
+Klebsiella pneumoniae	amikacin	clade_2	64	375	439
+Klebsiella pneumoniae	amikacin	clade_3	97	380	477
+Klebsiella pneumoniae	amikacin	clade_4	36	605	641
+Klebsiella pneumoniae	amikacin	training	243	100	343
+Klebsiella pneumoniae	amikacin	val	31	315	346
+Klebsiella pneumoniae	cefepime	clade_1	367	26	393
+Klebsiella pneumoniae	cefepime	clade_2	202	148	350
+Klebsiella pneumoniae	cefepime	clade_3	219	94	313
+Klebsiella pneumoniae	cefepime	clade_4	321	200	521
+Klebsiella pneumoniae	cefepime	training	223	18	241
+Klebsiella pneumoniae	cefepime	val	172	126	298
+Klebsiella pneumoniae	cefoxitin	clade_1	303	36	339
+Klebsiella pneumoniae	cefoxitin	clade_2	116	198	314
+Klebsiella pneumoniae	cefoxitin	clade_3	71	209	280
+Klebsiella pneumoniae	cefoxitin	clade_4	406	163	569
+Klebsiella pneumoniae	cefoxitin	training	166	41	207
+Klebsiella pneumoniae	cefoxitin	val	75	195	270
+Klebsiella pneumoniae	gentamicin	clade_1	170	284	454
+Klebsiella pneumoniae	gentamicin	clade_2	252	300	552
+Klebsiella pneumoniae	gentamicin	clade_3	351	242	593
+Klebsiella pneumoniae	gentamicin	clade_4	426	226	652
+Klebsiella pneumoniae	gentamicin	training	229	117	346
+Klebsiella pneumoniae	gentamicin	val	157	304	461
+Klebsiella pneumoniae	imipenem	clade_1	352	99	451
+Klebsiella pneumoniae	imipenem	clade_2	92	301	393
+Klebsiella pneumoniae	imipenem	clade_3	66	342	408
+Klebsiella pneumoniae	imipenem	clade_4	204	429	633
+Klebsiella pneumoniae	imipenem	training	281	96	377
+Klebsiella pneumoniae	imipenem	val	38	324	362
+Klebsiella pneumoniae	meropenem	clade_1	357	96	453
+Klebsiella pneumoniae	meropenem	clade_2	100	326	426
+Klebsiella pneumoniae	meropenem	clade_3	84	338	422
+Klebsiella pneumoniae	meropenem	clade_4	214	424	638
+Klebsiella pneumoniae	meropenem	training	286	97	383
+Klebsiella pneumoniae	meropenem	val	47	299	346
+Klebsiella pneumoniae	nitrofurantoin	clade_1	169	2	171
+Klebsiella pneumoniae	nitrofurantoin	clade_2	119	80	199
+Klebsiella pneumoniae	nitrofurantoin	clade_3	103	67	170
+Klebsiella pneumoniae	nitrofurantoin	clade_4	312	51	363
+Klebsiella pneumoniae	nitrofurantoin	training	85	2	87
+Klebsiella pneumoniae	nitrofurantoin	val	86	58	144
+Klebsiella pneumoniae	piperacillin_tazobactam	clade_1	180	249	429
+Klebsiella pneumoniae	piperacillin_tazobactam	clade_2	129	285	414
+Klebsiella pneumoniae	piperacillin_tazobactam	clade_3	144	275	419
+Klebsiella pneumoniae	piperacillin_tazobactam	clade_4	260	354	614
+Klebsiella pneumoniae	piperacillin_tazobactam	training	90	172	262
+Klebsiella pneumoniae	piperacillin_tazobactam	val	117	268	385
+Klebsiella pneumoniae	tetracycline	clade_1	63	247	310
+Klebsiella pneumoniae	tetracycline	clade_2	168	100	268
+Klebsiella pneumoniae	tetracycline	clade_3	184	71	255
+Klebsiella pneumoniae	tetracycline	clade_4	316	225	541
+Klebsiella pneumoniae	tetracycline	training	40	105	145
+Klebsiella pneumoniae	tetracycline	val	140	99	239
+Klebsiella pneumoniae	tobramycin	clade_1	418	15	433
+Klebsiella pneumoniae	tobramycin	clade_2	240	150	390
+Klebsiella pneumoniae	tobramycin	clade_3	264	119	383
+Klebsiella pneumoniae	tobramycin	clade_4	298	317	615
+Klebsiella pneumoniae	tobramycin	training	264	19	283
+Klebsiella pneumoniae	tobramycin	val	179	143	322
+Salmonella enterica	ampicillin	clade_1	178	217	395
+Salmonella enterica	ampicillin	clade_2	256	667	923
+Salmonella enterica	ampicillin	clade_3	742	398	1140
+Salmonella enterica	ampicillin	clade_4	231	407	638
+Salmonella enterica	ampicillin	training	347	151	498
+Salmonella enterica	ampicillin	val	74	176	250
+Salmonella enterica	chloramphenicol	clade_1	177	218	395
+Salmonella enterica	chloramphenicol	clade_2	83	837	920
+Salmonella enterica	chloramphenicol	clade_3	380	756	1136
+Salmonella enterica	chloramphenicol	clade_4	69	563	632
+Salmonella enterica	chloramphenicol	training	347	152	499
+Salmonella enterica	chloramphenicol	val	43	199	242
+Salmonella enterica	ciprofloxacin	clade_1	171	145	316
+Salmonella enterica	ciprofloxacin	clade_2	119	708	827
+Salmonella enterica	ciprofloxacin	clade_3	47	1037	1084
+Salmonella enterica	ciprofloxacin	clade_4	16	610	626
+Salmonella enterica	ciprofloxacin	training	415	76	491
+Salmonella enterica	ciprofloxacin	val	35	201	236
+Salmonella enterica	streptomycin	clade_1	4	104	108
+Salmonella enterica	streptomycin	clade_2	364	496	860
+Salmonella enterica	streptomycin	clade_3	578	460	1038
+Salmonella enterica	streptomycin	clade_4	250	379	629
+Salmonella enterica	streptomycin	val	46	196	242
+Salmonella enterica	sulfisoxazole	clade_1	3	14	17
+Salmonella enterica	sulfisoxazole	clade_2	132	577	709
+Salmonella enterica	sulfisoxazole	clade_3	409	100	509
+Salmonella enterica	sulfisoxazole	clade_4	146	483	629
+Salmonella enterica	sulfisoxazole	val	53	189	242
+Salmonella enterica	tetracycline	clade_1	4	104	108
+Salmonella enterica	tetracycline	clade_2	413	506	919
+Salmonella enterica	tetracycline	clade_3	795	244	1039
+Salmonella enterica	tetracycline	clade_4	299	331	630
+Salmonella enterica	tetracycline	val	81	161	242
+Salmonella enterica	trimethoprim_sulphamethoxazole	clade_1	182	122	304
+Salmonella enterica	trimethoprim_sulphamethoxazole	clade_2	31	681	712
+Salmonella enterica	trimethoprim_sulphamethoxazole	clade_3	114	656	770
+Salmonella enterica	trimethoprim_sulphamethoxazole	clade_4	27	609	636
+Salmonella enterica	trimethoprim_sulphamethoxazole	training	349	150	499
+Salmonella enterica	trimethoprim_sulphamethoxazole	val	16	221	237
+Staphylococcus aureus	cefoxitin	clade_1	98	39	137
+Staphylococcus aureus	cefoxitin	clade_2	60	72	132
+Staphylococcus aureus	cefoxitin	clade_3	166	20	186
+Staphylococcus aureus	cefoxitin	clade_4	260	0	260
+Staphylococcus aureus	cefoxitin	training	202	116	318
+Staphylococcus aureus	cefoxitin	val	83	0	83
+Staphylococcus aureus	ciprofloxacin	clade_1	185	221	406
+Staphylococcus aureus	ciprofloxacin	clade_2	23	261	284
+Staphylococcus aureus	ciprofloxacin	clade_3	87	187	274
+Staphylococcus aureus	ciprofloxacin	clade_4	406	3	409
+Staphylococcus aureus	ciprofloxacin	training	112	525	637
+Staphylococcus aureus	ciprofloxacin	val	132	1	133
+Staphylococcus aureus	clindamycin	clade_1	172	167	339
+Staphylococcus aureus	clindamycin	clade_2	20	155	175
+Staphylococcus aureus	clindamycin	clade_3	19	73	92
+Staphylococcus aureus	clindamycin	clade_4	108	29	137
+Staphylococcus aureus	clindamycin	training	81	261	342
+Staphylococcus aureus	clindamycin	val	1	0	1
+Staphylococcus aureus	erythromycin	clade_1	261	246	507
+Staphylococcus aureus	erythromycin	clade_2	42	331	373
+Staphylococcus aureus	erythromycin	clade_3	87	211	298
+Staphylococcus aureus	erythromycin	clade_4	267	149	416
+Staphylococcus aureus	erythromycin	training	175	592	767
+Staphylococcus aureus	erythromycin	val	64	75	139
+Staphylococcus aureus	methicillin	clade_1	77	119	196
+Staphylococcus aureus	methicillin	clade_2	19	205	224
+Staphylococcus aureus	methicillin	clade_3	59	109	168
+Staphylococcus aureus	methicillin	clade_4	338	4	342
+Staphylococcus aureus	methicillin	training	596	434	1030
+Staphylococcus aureus	methicillin	val	62	10	72
+Streptococcus pneumoniae	erythromycin	clade_1	124	513	637
+Streptococcus pneumoniae	erythromycin	clade_2	210	489	699
+Streptococcus pneumoniae	erythromycin	clade_3	332	501	833
+Streptococcus pneumoniae	erythromycin	clade_4	316	380	696
+Streptococcus pneumoniae	erythromycin	training	348	450	798
+Streptococcus pneumoniae	penicillin	clade_1	354	247	601
+Streptococcus pneumoniae	penicillin	clade_2	207	329	536
+Streptococcus pneumoniae	penicillin	clade_3	282	187	469
+Streptococcus pneumoniae	penicillin	clade_4	196	251	447
+Streptococcus pneumoniae	penicillin	training	238	254	492
+Streptococcus pneumoniae	tetracycline	clade_1	67	342	409
+Streptococcus pneumoniae	tetracycline	clade_2	159	381	540
+Streptococcus pneumoniae	tetracycline	clade_3	269	377	646
+Streptococcus pneumoniae	tetracycline	clade_4	219	393	612
+Streptococcus pneumoniae	tetracycline	training	289	330	619
+Streptococcus pneumoniae	tetracycline	val	48	0	48
+Streptococcus pneumoniae	trimethoprim_sulphamethoxazole	clade_1	851	334	1185
+Streptococcus pneumoniae	trimethoprim_sulphamethoxazole	clade_2	745	480	1225
+Streptococcus pneumoniae	trimethoprim_sulphamethoxazole	clade_3	343	315	658
+Streptococcus pneumoniae	trimethoprim_sulphamethoxazole	clade_4	488	225	713
+Streptococcus pneumoniae	trimethoprim_sulphamethoxazole	training	675	552	1227
+Streptococcus pneumoniae	trimethoprim_sulphamethoxazole	val	180	0	180
+extend_E_coli	amoxicillin	clade_1	222	247	469
+extend_E_coli	amoxicillin	clade_2	381	348	729
+extend_E_coli	amoxicillin	clade_3	344	131	475
+extend_E_coli	amoxicillin	clade_4	133	65	198
+extend_E_coli	amoxicillin	training	311	122	433
+extend_E_coli	amoxicillin	val	81	56	137
+extend_E_coli	amoxicillin_clavulanate	clade_1	159	584	743
+extend_E_coli	amoxicillin_clavulanate	clade_2	114	219	333
+extend_E_coli	amoxicillin_clavulanate	clade_3	54	106	160
+extend_E_coli	amoxicillin_clavulanate	training	148	160	308
+extend_E_coli	amoxicillin_clavulanate	val	37	99	136
+extend_E_coli	amoxicillin_clavulanic_acid	clade_1	139	310	449
+extend_E_coli	amoxicillin_clavulanic_acid	clade_2	162	599	761
+extend_E_coli	amoxicillin_clavulanic_acid	clade_3	199	336	535
+extend_E_coli	amoxicillin_clavulanic_acid	clade_4	126	202	328
+extend_E_coli	amoxicillin_clavulanic_acid	training	273	274	547
+extend_E_coli	amoxicillin_clavulanic_acid	val	75	175	250
+extend_E_coli	ampicillin	clade_1	172	150	322
+extend_E_coli	ampicillin	clade_2	294	306	600
+extend_E_coli	ampicillin	clade_3	535	108	643
+extend_E_coli	ampicillin	clade_4	525	159	684
+extend_E_coli	ampicillin	training	501	109	610
+extend_E_coli	ampicillin	val	427	130	557
+extend_E_coli	cefepime	clade_1	2	213	215
+extend_E_coli	cefepime	clade_2	40	126	166
+extend_E_coli	cefepime	clade_3	78	189	267
+extend_E_coli	cefepime	training	90	142	232
+extend_E_coli	cefepime	val	51	127	178
+extend_E_coli	cefotaxime	clade_1	42	1397	1440
+extend_E_coli	cefotaxime	clade_2	228	572	801
+extend_E_coli	cefotaxime	clade_3	243	254	499
+extend_E_coli	cefotaxime	training	298	407	705
+extend_E_coli	cefotaxime	val	285	225	510
+extend_E_coli	ceftazidime	clade_1	37	1507	1551
+extend_E_coli	ceftazidime	clade_2	213	632	862
+extend_E_coli	ceftazidime	clade_3	224	412	650
+extend_E_coli	ceftazidime	training	240	487	760
+extend_E_coli	ceftazidime	val	171	348	525
+extend_E_coli	cefuroxime	clade_1	132	1393	1525
+extend_E_coli	cefuroxime	clade_2	209	514	723
+extend_E_coli	cefuroxime	clade_3	137	240	377
+extend_E_coli	cefuroxime	training	300	346	646
+extend_E_coli	cefuroxime	val	135	200	335
+extend_E_coli	ciprofloxacin	clade_1	39	1511	1554
+extend_E_coli	ciprofloxacin	clade_2	273	557	837
+extend_E_coli	ciprofloxacin	clade_3	259	468	732
+extend_E_coli	ciprofloxacin	training	525	283	811
+extend_E_coli	ciprofloxacin	val	273	365	642
+extend_E_coli	tobramycin	clade_1	22	425	450
+extend_E_coli	tobramycin	clade_2	112	254	368
+extend_E_coli	tobramycin	clade_3	107	222	332
+extend_E_coli	tobramycin	training	165	205	374
+extend_E_coli	tobramycin	val	105	188	296
+extend_E_coli	trimethoprim	clade_1	74	353	430
+extend_E_coli	trimethoprim	clade_2	211	114	325
+extend_E_coli	trimethoprim	clade_3	160	149	310
+extend_E_coli	trimethoprim	training	149	123	272
+extend_E_coli	trimethoprim	val	163	113	276

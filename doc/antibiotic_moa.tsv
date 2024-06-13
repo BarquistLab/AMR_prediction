@@ -1,0 +1,96 @@
+Antibiotic	Subclass	MOA
+amikacin	aminoglycoside	PSI
+amoxicillin	Penicillins	CWSI
+amoxicillin_clavulanate	Penicillins	CWSI
+amoxicillin_clavulanic_acid	Penicillins	CWSI
+ampicillin	Penicillins	CWSI
+ampicillin_sulbactam	Penicillins	CWSI
+azithromycin		PSI
+aztreonam	Monobactams	CWSI
+benzylpenicillin		CWSI
+cefalexin		CWSI
+cefalothin	cephalosporin	CWSI
+cefazolin	cephalosporin	CWSI
+cefepime	cephalosporin	CWSI
+cefotaxime	cephalosporin	CWSI
+cefotaxime_clavulanic_acid		CWSI
+cefotetan		CWSI
+cefoxitin	cephamycin	CWSI
+cefpodoxime		CWSI
+cefquinome		CWSI
+ceftaroline		CWSI
+ceftazidime	cephalosporin	CWSI
+ceftazidime_avibactam	cephalosporin	CWSI
+ceftazidime_clavulanic_acid	cephalosporin	CWSI
+ceftiofur		CWSI
+ceftolozane_tazobactam		CWSI
+ceftriaxone	cephalosporin	CWSI
+cefuroxime	cephalosporin	CWSI
+chloramphenicol	amphenicol	PSI
+ciprofloxacin	quinolone	DSI
+clarithromycin		PSI
+clindamycin		PSI
+colistin	polymyxin	PSI
+daptomycin		CWSI
+delafloxacin		DSI
+doripenem		CWSI
+doxycycline		PSI
+ertapenem	carbapenem	PSI
+erythromycin		PSI
+florfenicol		PSI
+fosfomycin		CWSI
+gentamicin	aminoglycoside	PSI
+imipenem	carbapenem	PSI
+kanamycin		PSI
+levofloxacin	quinolone	DSI
+lincomycin		PSI
+linezolid		PSI
+meropenem	carbapenem	PSI
+metronidazole		PSI
+minocycline		PSI
+moxifloxacin		DSI
+nalidixic_acid		DSI
+netilmicin		PSI
+nitrofurantoin		PSI
+norfloxacin	quinolone	DSI
+ofloxacin		DSI
+oxytetracycline		PSI
+piperacillin		CWSI
+piperacillin_tazobactam	Penicillins	CWSI
+polymyxin_b		CWSI
+rifampicin		RSI
+spectinomycin		PSI
+streptomycin	aminoglycoside	PSI
+sulbactam		CWSI
+sulfamethoxazole		DSI
+sulfisoxazole		RSI
+teicoplanin		CWSI
+temocillin		CWSI
+tetracycline	tetracycline	PSI
+ticarcillin		CWSI
+ticarcillin_clavulanic_acid		CWSI
+tigecycline	tetracycline	PSI
+tobramycin	aminoglycoside	PSI
+trimethoprim	Trimethoprim	DSI
+trimethoprim_sulphamethoxazole	Trimethoprim	DSI
+vancomycin		CWSI
+fusidic_acid		PSI
+methicillin		CWSI
+mupirocin		CWSI
+penicillin		CWSI
+oxacillin		CWSI
+neomycin		PSI
+tiamulin		PSI
+dicloxacillin		CWSI
+quinupristin_dalfopristin		PSI
+beta_lactams		CWSI
+telithromycin		PSI
+trovafloxacin		DSI
+gatifloxacin		DSI
+sparfloxacin		DSI
+sulfonamides		RSI
+furazolidone		DSI
+cephalosporins		CWSI
+pefloxacin		DSI
+cefpirome		CWSI
+apramycin	aminoglycoside	PSI

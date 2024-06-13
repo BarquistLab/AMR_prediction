@@ -1,0 +1,1 @@
+metadata for each genome of each species, including phenotypic information from previous studies (https://github.com/BV-BRC/AMRMetadataReview_2021, https://doi.org/10.1371/journal.pcbi.1006258), sequence types, and number of contigs. Genomes that failed CheckM quality check have been removed.
