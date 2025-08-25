@@ -334,7 +334,7 @@ for a in antis:
             if clade_df[clade_df[training_target]==0].shape[0]>=50 and clade_df[clade_df[training_target]==1].shape[0]>=50 :
                 included_clade.append(clade)
     included_clade.sort()
-    if len(included_clade)==0:
+    if len(included_clade)<2:
         open(output_file_name + '/log.txt','a').write("No test clade included. Abort.") 
         continue
     
