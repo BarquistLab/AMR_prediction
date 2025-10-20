@@ -14,8 +14,23 @@ Repo for study "Biased sampling confounds machine learning prediction of antimic
 * Additional *E. coli* genomes were downloaded based on ENA accession numbers provided in S1 from previous study (https://doi.org/10.1371/journal.pcbi.1006258), followed by assembling using velvet.
 
 ## Python Environment
+This project uses **Conda** to manage dependencies and ensure reproducibility across macOS, Linux, and Windows.
+### 1. Install Conda or Mamba
 
+If you don’t have Conda installed, install one of the following:
+
+- **[Miniconda](https://docs.conda.io/en/latest/miniconda.html)** – the official minimal installer for Conda  
+
+After installation, verify it works:
+
+```bash
+conda --version
 ```
-$ conda create --name <env> --file script/arm_spec.txt
+### 2. Clone the repository
+git clone https://github.com/BarquistLab/AMR_prediction.git
+cd AMR_prediction
+
+```bash
+conda env create -f script/arm_spec.yml
 ```
 
