@@ -5,4 +5,4 @@
 3. schemeA_with_ratio_training.py: training models under scheme A but including both resistant and susceptible strains from test clade, related to Fig S7BC
 4. individual_clade_interpret.py: training models using strains in each clade to understand the clade discrepancies, related to Fig S9
 5. performance_interpretation.py: interpret the model performance from scheme A and B, related to Fig 2A
-6. plotting.py: codes to compile the results and plotting the plots in the manuscript. 
+6. plotting.py: codes to compile the results and plotting the plots in the manuscript. Related data files can be found in Mendeley Data: https://data.mendeley.com/datasets/zs2mbjv7dn/1
