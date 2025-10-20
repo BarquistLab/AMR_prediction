@@ -1,4 +1,4 @@
-# AMR_prediction
+# AMR_prediction [![DOI](https://zenodo.org/badge/814745431.svg)](https://doi.org/10.5281/zenodo.17398581)
 Repo for study "Biased sampling confounds machine learning prediction of antimicrobial resistance"
 
 ## Contents
