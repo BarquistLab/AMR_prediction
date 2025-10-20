@@ -27,9 +27,11 @@ After installation, verify it works:
 conda --version
 ```
 ### 2. Clone the repository
+```bash
 git clone https://github.com/BarquistLab/AMR_prediction.git
 cd AMR_prediction
-
+```
+### 3. Create the environment
 ```bash
 conda env create -f script/arm_spec.yml
 ```
